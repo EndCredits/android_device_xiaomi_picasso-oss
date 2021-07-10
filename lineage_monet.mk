@@ -18,7 +18,7 @@ PRODUCT_NAME := lineage_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi 10 Lite 5G
+PRODUCT_MODEL := Mi 10 Lite 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
