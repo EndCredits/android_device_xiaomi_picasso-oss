@@ -461,6 +461,11 @@ vendor/lib64/libOmxVpp.so|85299c02bb0f830d5144fb0b01e2bf819169b3cb
 vendor/lib64/libOmxWmaDec.so|53d4b8e8a214caf7865d69cb02f4b722f0967c7d
 vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 
+# HotwordEnrollment - From monet
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
