@@ -79,6 +79,7 @@ vendor/lib64/liba2dpoffload.so
 
 # Camera
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
+system_ext/lib/vendor.qti.hardware.camera.device@2.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
@@ -691,6 +692,7 @@ vendor/etc/sensors/proto/sns_mcmd.proto
 vendor/etc/sensors/proto/sns_motion_detect.proto
 vendor/etc/sensors/proto/sns_multishake.proto
 vendor/etc/sensors/proto/sns_oem1.proto
+vendor/etc/sensors/proto/sns_oem2.proto
 vendor/etc/sensors/proto/sns_oem3.proto
 vendor/etc/sensors/proto/sns_offbody_detect.proto
 vendor/etc/sensors/proto/sns_pedometer.proto
@@ -742,5 +744,7 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
