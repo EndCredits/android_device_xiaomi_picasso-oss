@@ -28,3 +28,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="monet-user 11 RKQ1.200826.002 V12.5.5.0.RJIEUXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/monet_eea/monet:11/RKQ1.200826.002/V12.5.5.0.RJIEUXM:user/release-keys
+
+# Include firmware
+$(call inherit-product, vendor/xiaomi-firmware/monet/firmware.mk)
