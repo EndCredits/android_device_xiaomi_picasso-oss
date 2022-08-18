@@ -6,7 +6,7 @@
   },
   {
     "repository": "vendor_xiaomi_monet",
-    "target_path": "vendor/xiaomi",
+    "target_path": "vendor/xiaomi/monet",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   },
