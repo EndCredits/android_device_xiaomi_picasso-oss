@@ -14,6 +14,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Fingerprint
+TARGET_HAS_SIDEFPS := true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
