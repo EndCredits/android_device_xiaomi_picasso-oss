@@ -31,17 +31,13 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
-vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
-vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
-vendor/bin/loadalgo|c51fdfd59d8cd92902e011e459bc0d846854a780
-vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|0be8b21f30c8aba3381bb1e9279ba0ae9b730c60
-vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
-vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
+# ACDB Loader
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
 
 # ADSP Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
@@ -78,12 +74,6 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 system_ext/lib/com.qualcomm.qti.ant@1.0.so|5a366d502138473540eb9445b82a4d5160494f09
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|1ae6014b66d6dfb9424cf9041edcde11fca2c814
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
-
-# Audio hardware
-vendor/lib/hw/audio.primary.lito.so
-vendor/lib/vndk/libxlog.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Camera
 vendor/etc/camera/102_SummerDay.png
