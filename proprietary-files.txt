@@ -79,9 +79,6 @@ system_ext/lib/com.qualcomm.qti.ant@1.0.so|5a366d502138473540eb9445b82a4d5160494
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|1ae6014b66d6dfb9424cf9041edcde11fca2c814
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
 
-# Audio conf
-vendor/etc/cirrus.cfg
-
 # Audio hardware
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/vndk/libxlog.so
