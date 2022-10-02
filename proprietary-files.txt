@@ -465,7 +465,7 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Secure element
-vendor/lib64/libwvkeybox.so
+vendor/lib64/libwvkeybox.so|8898c5a7bc366bf378804e9aba3245aeacdedfd5
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
