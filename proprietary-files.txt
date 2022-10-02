@@ -458,13 +458,13 @@ vendor/lib64/libOmxVpp.so|85299c02bb0f830d5144fb0b01e2bf819169b3cb
 vendor/lib64/libOmxWmaDec.so|53d4b8e8a214caf7865d69cb02f4b722f0967c7d
 vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 
-# HotwordEnrollment - From monet
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+# HotwordEnrollment - from monet
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
 
-# Secure element
+# Secure element - from picasso
 vendor/lib64/libwvkeybox.so|8898c5a7bc366bf378804e9aba3245aeacdedfd5
 
 # Sensors
@@ -636,5 +636,5 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 
-# Widevine DRM
+# Widevine DRM - from picasso
 vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
