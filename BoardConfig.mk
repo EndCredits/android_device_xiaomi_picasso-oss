@@ -14,6 +14,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Input
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 102
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/picasso_user_defconfig
 
