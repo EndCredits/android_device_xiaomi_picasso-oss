@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_monet.mk
+    $(LOCAL_DIR)/aosp_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_monet-user \
-    aosp_monet-userdebug \
-    aosp_monet-eng
+    aosp_picasso-user \
+    aosp_picasso-userdebug \
+    aosp_picasso-eng

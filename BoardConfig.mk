@@ -7,7 +7,7 @@
 # Inherit from sm7250-common
 include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/monet
+DEVICE_PATH := device/xiaomi/picasso
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -15,7 +15,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := monet_defconfig
+TARGET_KERNEL_CONFIG := picasso_defconfig
 
 # Inherit from the proprietary version
-include vendor/xiaomi/monet/BoardConfigVendor.mk
+include vendor/xiaomi/picasso/BoardConfigVendor.mk

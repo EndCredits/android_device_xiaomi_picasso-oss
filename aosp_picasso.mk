@@ -11,23 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit from monet device
-$(call inherit-product, device/xiaomi/monet/device.mk)
+# Inherit from picasso device
+$(call inherit-product, device/xiaomi/picasso/device.mk)
 
-PRODUCT_NAME := aosp_monet
-PRODUCT_DEVICE := monet
+PRODUCT_NAME := aosp_picasso
+PRODUCT_DEVICE := picasso
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2002J9G
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30 5G
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="monet-user 11 RKQ1.200826.002 V12.5.5.0.RJIEUXM release-keys"
+    PRIVATE_BUILD_DESC="picasso-user 12 RKQ1.200826.002 V13.0.3.0.SGICNXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/monet_eea/monet:11/RKQ1.200826.002/V12.5.5.0.RJIEUXM:user/release-keys
-
-# Include firmware
-$(call inherit-product, vendor/xiaomi-firmware/monet/firmware.mk)
+BUILD_FINGERPRINT := Redmi/picasso/picasso:12/RKQ1.200826.002/V13.0.3.0.SGICNXM:user/release-keys

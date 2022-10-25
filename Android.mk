@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),monet)
+ifeq ($(TARGET_DEVICE),picasso)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

@@ -59,7 +59,7 @@ fi
 
 set -e
 
-export DEVICE=monet
+export DEVICE=picasso
 export DEVICE_COMMON=sm7250-common
 export VENDOR=xiaomi
 

@@ -32,4 +32,4 @@ TARGET_HAS_FOD := true
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/monet/monet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
