@@ -1,4 +1,4 @@
-# All blobs below are extracted from picasso 12 RKQ1.200826.002 V13.0.3.0.SGICNXM release-keys
+# All blobs below are extracted from picasso MIUI 12.5.9.0
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
