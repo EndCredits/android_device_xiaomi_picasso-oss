@@ -464,8 +464,8 @@ vendor/etc/qdcm_calib_data_xiaomi_36_02_0c_video_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml
 
-# DRM (OEM Crypto API)
-vendor/lib64/liboemcrypto.so
+# DRM (OEM Crypto API) - from picasso MIUI V13.0.3.0
+vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
 
 # Firmware
 vendor/firmware/NT36xxx_MP_Setting_Criteria_592D.csv
@@ -554,7 +554,7 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
 
 # Secure element
-vendor/lib64/libwvkeybox.so
+vendor/lib64/libwvkeybox.so|3bef9e673bae906848e39e752c972d5f7be4317a
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
