@@ -23,7 +23,11 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Fingerprint
-TARGET_HAS_SIDEFPS := true
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_lito
+
+PRODUCT_PACKAGES += \
+    KeyHandler
 
 # Keylayout
 PRODUCT_COPY_FILES += \
