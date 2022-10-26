@@ -427,6 +427,18 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
 
+# Camera - from picasso_48m
+vendor/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so
+vendor/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin
+vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin
+vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin
+vendor/lib/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin
+vendor/lib64/camera/com.qti.sensor.picasso_wide_ov48b2q.so
+vendor/lib64/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin
+vendor/lib64/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin
+vendor/lib64/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin
+vendor/lib64/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin
+
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
 
