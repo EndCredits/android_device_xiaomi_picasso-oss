@@ -499,7 +499,7 @@ vendor/lib64/libgf_ca.so|cbb9868ca7a195b65a728073a30e72f7b8bb849f
 vendor/lib64/libgf_hal.so|4bc0823421393d7d9867ab57cfd820a4ed809ee6
 vendor/lib64/libgoodixhwfingerprint.so|1e931528dfe44adcf29e617bc641b0f6c068c069
 vendor/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so|412381af7a27923a4838ed9fd804bad9e533b92c
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|393d8da1466f00bc4479f557ce5d41b879831eeei
+-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|393d8da1466f00bc4479f557ce5d41b879831eeei
 
 # HotwordEnrollment - from picasso MIUI V13.0.3.0 EU
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|1f9513ba807bced528203f829eb9a8249e915d38
