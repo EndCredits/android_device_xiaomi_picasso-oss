@@ -740,7 +740,5 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
-vendor/etc/thermal-per-camera.conf
-vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
