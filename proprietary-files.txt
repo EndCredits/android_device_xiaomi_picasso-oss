@@ -31,18 +31,6 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
-vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
-vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
-vendor/bin/loadalgo|c51fdfd59d8cd92902e011e459bc0d846854a780
-vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|0be8b21f30c8aba3381bb1e9279ba0ae9b730c60
-vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
-vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
-
 # ADSP Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
@@ -73,11 +61,6 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
-
-# ANT+ - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
-system_ext/lib/com.qualcomm.qti.ant@1.0.so|5a366d502138473540eb9445b82a4d5160494f09
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so|1ae6014b66d6dfb9424cf9041edcde11fca2c814
-vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
 
 # Audio hardware
 vendor/lib/hw/audio.primary.lito.so
@@ -410,53 +393,51 @@ vendor/lib64/libgoodixhwfingerprint.so|1e931528dfe44adcf29e617bc641b0f6c068c069
 vendor/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so|412381af7a27923a4838ed9fd804bad9e533b92c
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|393d8da1466f00bc4479f557ce5d41b879831eee
 
-# OMX - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
-vendor/lib/libAlacSwDec.so|cb41b0945e57b349e6aa476cdac4315ee13a2def
-vendor/lib/libApeSwDec.so|ce425ef9372ed6635e313422b3578f77b90ff526
-vendor/lib/libFlacSwDec.so|6b17d0965c9f8bddab3ffd59e7bb16e92bb68d85
-vendor/lib/libMpeg4SwEncoder.so|5ece5c259302a936c83f8d216540b11024d56742
-vendor/lib/libMpeghSwEnc.so|ea2b1eccc81185e0553978b249c417f017576d90
-vendor/lib/libOmxAacDec.so|15daa5bc66938671d940643a33ddc82cc5c7ef54
-vendor/lib/libOmxAlacDec.so|4222a174b19033ab5dd94b7cede9966256bf4f0b
-vendor/lib/libOmxAlacDecSw.so|150f1fee193918792a88797766ddf12d1a388efd
-vendor/lib/libOmxAmrDec.so|377d29fc698f2e0aec7f6511840641882f9a9f0f
-vendor/lib/libOmxAmrwbplusDec.so|f0daeadbf309b5fb03834d60b4ef770a26337210
-vendor/lib/libOmxApeDec.so|5295a8fbfc80346cf50aac27fb8caf6ed484e316
-vendor/lib/libOmxApeDecSw.so|f3e64e54808f57f146173532335ea45db1fb54f4
-vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
-vendor/lib/libOmxEvrcDec.so|b5d73cca82a7b2a80a8e0cae979203f1ca2e8798
-vendor/lib/libOmxG711Dec.so|5f2c28d4f0dbb89a74e49ed98e9efa990255065a
-vendor/lib/libOmxMpeghDecSw.so|eccb477e329f7178bc4daf28b1709c817734fc8e
-vendor/lib/libOmxMpeghEncSw.so|7ea10eea872ab2315f9dcf40a774853d9237ebc1
-vendor/lib/libOmxQcelp13Dec.so|9de32f322670a144ffbadabfc34281c409af4cfe
-vendor/lib/libOmxSwVdec.so|451e48ed0b131ec4e44194c3c8f6928037965500
-vendor/lib/libOmxSwVencMpeg4.so|85742b6565c9ec14e184d21ffc01839263ebacce
-vendor/lib/libOmxVideoDSMode.so|c4e36ec5ff61194d991ee7ac1a24998ed224b0c1
-vendor/lib/libOmxVpp.so|7ee2ea57a5c9d053f508f114e25c59d10627a613
-vendor/lib/libOmxWmaDec.so|ace627b2c1ad6116a521935ae80b3352fd5d3c10
-vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
-vendor/lib/libswvdec.so|7d269da9b5b9b2f5e4ee3ce3b68e3725ce012ef0
-vendor/lib64/libAlacSwDec.so|2bd791269f5151fa6b6cfaaa1744f5c0ecb19d28
-vendor/lib64/libApeSwDec.so|efac4ae01cd425577c704d06704b00970d324167
-vendor/lib64/libFlacSwDec.so|1aa31537b6f1f5752eb44486310647631cbb5c89
-vendor/lib64/libMpeg4SwEncoder.so|faf3705772ae55f8181bed997ac08bb9d1863abe
-vendor/lib64/libMpeghSwEnc.so|14b2f5d42aa43b0ca8c5cf0ebac467acf6e81847
-vendor/lib64/libOmxAacDec.so|15c13ea1fa86f59eb26420bbf4364c7eb639a8d7
-vendor/lib64/libOmxAlacDec.so|4427cd4308eb1e0b86cae682c02dd89ef7903344
-vendor/lib64/libOmxAlacDecSw.so|2174f226c15ff15558bbfaab559f6542fcd784ab
-vendor/lib64/libOmxAmrDec.so|621c36b7c8fbafdb595c92fdca2a138486775ab6
-vendor/lib64/libOmxAmrwbplusDec.so|dc42bbd2280d5cc6e24b8e7c1f20ceca8f643c76
-vendor/lib64/libOmxApeDec.so|8f9a3558d873f04f1c8bff7f5b3b06e8385fce2f
-vendor/lib64/libOmxApeDecSw.so|76741dbc4de400163e692817d200ae02ab72f85e
-vendor/lib64/libOmxEvrcDec.so|e92a9a579dc15b692276c3b0134cb5e431f805e2
-vendor/lib64/libOmxG711Dec.so|4ec86d7c75c85c119613b0fb5bec8e5861b88e2d
-vendor/lib64/libOmxMpeghEncSw.so|b7c9db846385f6431c3e488082c68f3488517860
-vendor/lib64/libOmxQcelp13Dec.so|177c8a7bfd59965ea8a1605f39cf36133b50099a
-vendor/lib64/libOmxSwVdec.so|b43da1bd4c93c9cf560a6e33ce220c832d82b2d3
-vendor/lib64/libOmxSwVencMpeg4.so|17ac7ae89806ec4434d3404a015d3db70b3ac449
-vendor/lib64/libOmxVpp.so|85299c02bb0f830d5144fb0b01e2bf819169b3cb
-vendor/lib64/libOmxWmaDec.so|53d4b8e8a214caf7865d69cb02f4b722f0967c7d
-vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
+# OMX
+vendor/lib/libAlacSwDec.so
+vendor/lib/libApeSwDec.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libMpeg4SwEncoder.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDec.so
+vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxAmrDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxApeDec.so
+vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxDsdDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxG711Dec.so
+vendor/lib/libOmxMpeghDecSw.so
+vendor/lib/libOmxMpeghEncSw.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxSwVdec.so
+vendor/lib/libOmxSwVencMpeg4.so
+vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxVpp.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libswvdec.so
+vendor/lib64/libAlacSwDec.so
+vendor/lib64/libApeSwDec.so
+vendor/lib64/libFlacSwDec.so
+vendor/lib64/libMpeg4SwEncoder.so
+vendor/lib64/libOmxAacDec.so
+vendor/lib64/libOmxAlacDec.so
+vendor/lib64/libOmxAlacDecSw.so
+vendor/lib64/libOmxAmrDec.so
+vendor/lib64/libOmxAmrwbplusDec.so
+vendor/lib64/libOmxApeDec.so
+vendor/lib64/libOmxApeDecSw.so
+vendor/lib64/libOmxEvrcDec.so
+vendor/lib64/libOmxG711Dec.so
+vendor/lib64/libOmxMpeghEncSw.so
+vendor/lib64/libOmxQcelp13Dec.so
+vendor/lib64/libOmxSwVdec.so
+vendor/lib64/libOmxSwVencMpeg4.so
+vendor/lib64/libOmxVpp.so
+vendor/lib64/libOmxWmaDec.so
+vendor/lib64/libswvdec.so
 
 # HotwordEnrollment - from monet
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
@@ -634,7 +615,6 @@ vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
-
 
 # Widevine DRM - from picasso
 vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
