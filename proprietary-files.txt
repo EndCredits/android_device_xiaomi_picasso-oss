@@ -68,12 +68,18 @@ vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib/libfcsam.so
 vendor/lib/libresampler.so
+vendor/lib64/hw/audio.primary.lito.so
+vendor/lib64/liba2dpoffload.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libresampler.so
 
 # Audio Hal IMPL
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/libaudioconfigstore.so
+vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib64/libaudioconfigstore.so
 
@@ -396,6 +402,9 @@ vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.lito.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.lito.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
 
 # OMX
 vendor/lib/libAlacSwDec.so
