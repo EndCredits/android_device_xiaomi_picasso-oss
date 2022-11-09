@@ -16,23 +16,24 @@
 ** limitations under the License.
 */
 -->
-
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- Height of the status bar.
-         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
-         -->
-         <dimen name="status_bar_height_default">28dp</dimen>
-         <dimen name="status_bar_height_portrait">85px</dimen>
-         <dimen name="status_bar_height_landscape">0dp</dimen>
+        Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
+    -->
+    <dimen name="status_bar_height_default">28dp</dimen>
+
+    <dimen name="status_bar_height_portrait">85px</dimen>
+
+    <dimen name="status_bar_height_landscape">0dp</dimen>
      
-        <!-- Radius of the software rounded corners at the top of the display in its natural
-             orientation. If zero, the value of rounded_corner_radius is used. -->
-        <dimen name="rounded_corner_radius_top">102.0px</dimen>
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">102.0px</dimen>
      
-        <!-- Radius of the software rounded corners at the bottom of the display in its natural
-             orientation. If zero, the value of rounded_corner_radius is used. -->
-        <dimen name="rounded_corner_radius_bottom">102.0px</dimen>
-     
-        <!-- Height of area above QQS where battery/time go -->
-         <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
-</resources> 
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">102.0px</dimen>
+
+   <!-- Height of area above QQS where battery/time go -->
+   <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
+</resources>
