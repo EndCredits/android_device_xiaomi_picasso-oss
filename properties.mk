@@ -6,5 +6,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Fingerprint
-ro.hardware.fp.sideCap=true
-ro.hardware.fp.vendor=goodix,fpc
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.hardware.fp.sideCap=true \
+	ro.hardware.fp.vendor=goodix,fpc
