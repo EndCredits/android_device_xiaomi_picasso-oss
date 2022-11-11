@@ -583,6 +583,3 @@ vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
-
-# Widevine DRM - from picasso
-vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
