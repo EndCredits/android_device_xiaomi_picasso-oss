@@ -361,14 +361,14 @@
      <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
          from the HAL in the future. -->
-    <array name="config_sfps_sensor_props" translatable="false">
+     <array name="config_sfps_sensor_props" translatable="false">
          <item>@array/config_sfps_sensor_props_0</item>
      </array>
   
      <array name="config_sfps_sensor_props_0" translatable="false">
-         <item></item> <!--item>displayId</item-->
+         <item>local:4630946687422888065</item> <!--item>displayId</item-->
          <item>1080</item> <!--item>sensorLocationX</item-->
-         <item>1000</item> <!--item>sensorLocationY</item-->
+         <item>850</item> <!--item>sensorLocationY</item-->
          <item>200</item> <!--item>sensorRadius</item-->
      </array>
     
