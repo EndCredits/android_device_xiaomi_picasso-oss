@@ -12,7 +12,7 @@ DEVICE_PATH := device/xiaomi/picasso
 BUILD_BROKEN_DUP_RULES := true
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 400
 
 # Fingerprint
 TARGET_HAS_SIDEFPS := true
