@@ -5,6 +5,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.surface_flinger.use_color_management=true \
 	ro.surface_flinger.wcg_composition_dataspace=143261696
 
+PRODUCT_SYSTEM_PROPERTIES += \
+	qemu.sf.lcd_density=440
+
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.hardware.fp.sideCap=true \

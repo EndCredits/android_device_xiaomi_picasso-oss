@@ -11,7 +11,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -46,6 +46,14 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
+
+# Inherit from MindTheGApps
+ifeq ($(WITH_GAPPS), true)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+TARGET_UNOFFICIAL_BUILD_ID += Gapps
+else
+TARGET_UNOFFICIAL_BUILD_ID += Vanilla
+endif
 
 # Inherit from sm7250-common
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
