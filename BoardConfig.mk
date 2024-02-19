@@ -14,6 +14,9 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/picasso
 
+# Camera - HIDL overrideFormat
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED = true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
