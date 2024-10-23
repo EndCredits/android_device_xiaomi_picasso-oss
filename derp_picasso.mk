@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -26,6 +26,5 @@ DERP_BUILDTYPE := Official
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "picasso-user 12 RKQ1.200826.002 V13.0.5.0.SGICNXM release-keys")
-
-BUILD_FINGERPRINT := Redmi/picasso/picasso:12/RKQ1.200826.002/V13.0.5.0.SGICNXM:user/release-keys
+    BuildDesc="picasso-user 12 RKQ1.200826.002 V13.0.5.0.SGICNXM release-keys" \
+    BuildFingerprint=Redmi/picasso/picasso:12/RKQ1.200826.002/V13.0.5.0.SGICNXM:user/release-keys
