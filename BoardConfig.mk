@@ -39,7 +39,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Wifi
 CONFIG_ACS := true
 CONFIG_IEEE80211AC := true
-CONFIG_IEEE80211AX := true
 
 # Inherit from the proprietary version
 include vendor/xiaomi/picasso/BoardConfigVendor.mk
